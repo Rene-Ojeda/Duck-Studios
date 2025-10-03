@@ -1,0 +1,92 @@
+    body {
+        background-color: #FFFDD0;
+        font-family: Red Hat;
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: Red Hat;
+        src: url('/Assets/RedHat/RedHatDisplay-VariableFont_wght.ttf');
+    }
+
+    nav {
+        margin-top: 1vw;
+        margin-left: 1vw;
+        display: flex;
+        width: 100%;
+        height: 6vw;
+        overflow: hidden;
+        align-items: center;
+        box-shadow: 10px 10px 5px #fff899
+        
+    }
+
+    nav img {
+        width: 5vw;
+        margin: 2vw;
+        
+    }
+     
+  
+    .navlist {
+        flex-grow: 1; 
+        display: flex;
+        justify-content: center; 
+    }
+
+    .navlist ul {
+        display: flex;
+        list-style-type: none;
+        gap: 5vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bodyblockcontainer {
+        margin-top: 15vw;
+        display: flex;
+        justify-content: center;
+        
+
+        
+    }
+
+    .bodyblock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 0px;
+    }
+
+    #duck_membership {
+        text-align: center;
+    }
+
+
+    .buttons {
+        width: 15vw;
+        height: 5vw;
+        border-radius: 100px;
+        color: #1E1E1E;
+        font-size: 1vw;
+        background-color: #D0D2FF;
+
+    }
+
+
+        .buttonblock {
+        display: flex;
+        margin-top: 3vw;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .button2 {
+        background-color: #36A7A4;
+    }
+
+
+        
+
+    

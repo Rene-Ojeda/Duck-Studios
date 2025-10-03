@@ -1,78 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title>Duck Studio Productions</title>
+        <title>Duck Studios Production</title>
         <link rel="icon" type="image/x-icon" href="/images/rubber-duck.png">
-        <style>
-            body {
-                background-color: #FFFDD0;
-                font-family: Red Hat;
-                margin: 2vw;
-            }
-            
-          
-            
-            @font-face {
-                font-family: Red Hat;
-                src: url(Assets/RedHat/RedHatDisplay-VariableFont_wght.ttf);
-            }
-
-            .block1 {
-                display: flex;
-                justify-content: center;
-            }
-
-            header img {
-                height: 10vw;
-
-            }
-            
-            #text1 {
-                text-align: center;
-                line-height: 1vw;
-            }
-
-
-            nav ul {
-                display: flex;
-                margin-top: 3vw;
-                flex-direction: row;
-                list-style-type: none;
-                gap: 8vw;
-                justify-content: center;
-                color: black
-            }
-
-            nav ul li a  {
-                text-decoration: none;
-                color: black;
-            }
-            nav ul a:hover{
-                color: orange
-            }
-
-        </style>
-
+        <link rel="stylesheet" type="text/css" href="/Assets/Css/style.css">
     </head>
     <body>
-        <header>
-            <div class="block1">
-                <img src="images/rubber-duck.png">
-            </div>
-            <div id="text1">
-                <h1>Duck Studio Productions</h1>
-                <h4>Since 2025</h4>
-            </div>
-        </header>
         <nav>
-            <div>
+            <img src="/Images/rubber-duck.png" />
+            <div class="navtitle">
+                <h2>Duck Studio </h2>
+
+            </div>
+            <div class="navlist">
                 <ul>
-                    <li><a href='#'> About</a></li>
-                    <li><a href='#'> Servies</a></li>
-                    <li><a href='#'> Policy</a></li>
-                    <li><a href='#'> Portfolio</a></li>
+                    <li>Overview</li>
+                    <li>Policies</li>
+                    <li>Examples</li>
+                    <li>Photography</li>
                 </ul>
             </div>
         </nav>
+
+        <section class="bodyblockcontainer">
+            <div class="bodyblock">
+                <h1>
+                    Reliable, clean, and optmized GUI's! Free with 
+                </h1>
+                <h1 id="duck_membership">Duck Membership  &#8482;</h1>
+                <div class="buttonblock">
+                    <button class="buttons">One Year</button>
+                    <button class="buttons button2">7 Day Free Trial</button>
+                </div>
+               
+            </div>
+            
+        </section>
     </body>
 </html>
