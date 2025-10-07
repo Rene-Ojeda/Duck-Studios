@@ -130,6 +130,8 @@
 
     #overview h1 {
         text-align: center;
+        font-weight: 400;
+        font-size: 50px;
     }
 
     #overview {
@@ -139,8 +141,8 @@
 
     
     #overview_grid {
-        grid-template-columns: 20vw 20vw   ;
-        gap:15vw;
+        grid-template-columns: 25vw 25vw   ;
+        gap:1vw;
         grid-template-rows: auto auto;
         display: grid;
         justify-content: center;
@@ -151,9 +153,32 @@
     }
 
     #sneakpeak {
-        background-color: green;
+        padding: 10px;
+        background-color: #f7f4b7;
+        border-radius: 15px;
+        line-height: 15px;
+
     }
 
     #Testimonials {
-        background-color: gray;
+        padding: 10px;
+        background-color: #f7f4b7;
+        border-radius: 15px;
+        line-height: 15px;
     }
+
+    #sneakpeak p {
+        font-weight: 400;
+    }
+
+    #overview p {
+        line-height: .8vw;
+        text-align: center;
+        margin-bottom: 8vw;
+    }
+
+    #overview_text {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
