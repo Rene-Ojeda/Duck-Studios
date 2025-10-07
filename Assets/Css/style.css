@@ -17,7 +17,8 @@
         height: 6vw;
         overflow: hidden;
         align-items: center;
-        box-shadow: 10px 10px 5px #fff899
+        box-shadow: 10px 10px 5px #fff899;
+        font-weight: 500;
         
     }
 
@@ -40,6 +41,19 @@
         gap: 5vw;
         margin: 0;
         padding: 0;
+    }
+
+    .navlist ul a {
+        text-decoration: none;
+
+    }
+
+    .navlist ul a:visited {
+        color: black;
+    }
+
+    .navlist ul a:hover {
+        color: lightcoral;
     }
 
     .bodyblockcontainer {
@@ -70,6 +84,12 @@
         color: #1E1E1E;
         font-size: 1vw;
         background-color: #D0D2FF;
+        font-weight: 700;
+        border: 0;
+        filter: drop-shadow(5px 5px 5px grey);
+        cursor: pointer;
+
+        
 
     }
 
@@ -86,7 +106,54 @@
         background-color: #36A7A4;
     }
 
+    #userimg {
+        height: 4vw;
+        width: 4vw;
+        opacity: 0.8;
+    }
 
+    #buttonimg {
+        background-color: #FFFDD0 ;
+        border: 0;
+        cursor: pointer;
+
+    }
+
+   
+
+    .secondpagecointainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #overview h1 {
+        text-align: center;
+    }
+
+    #overview {
+        margin-top: 25vw;
         
+    }
 
     
+    #overview_grid {
+        grid-template-columns: 20vw 20vw   ;
+        gap:15vw;
+        grid-template-rows: auto auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+
+    #sneakpeak {
+        background-color: green;
+    }
+
+    #Testimonials {
+        background-color: gray;
+    }
