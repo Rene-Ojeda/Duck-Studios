@@ -94,6 +94,18 @@
     }
 
 
+    .buttons a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .buttons:hover {
+        background-color: #216f6d;
+        transition: 90ms;
+        transform: translate(5px,0px);
+    }
+
+
         .buttonblock {
         display: flex;
         margin-top: 3vw;
@@ -139,6 +151,12 @@
         
     }
 
+    #overview_text a {
+        text-decoration: none;
+        font-weight: 500;
+        color: #000000;
+    }
+
     
     #overview_grid {
         grid-template-columns: 25vw 25vw   ;
@@ -180,5 +198,5 @@
     #overview_text {
         font-size: 20px;
         font-weight: 200;
-    }
-
+    }   
+    
