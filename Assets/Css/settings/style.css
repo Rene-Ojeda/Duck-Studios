@@ -1,0 +1,123 @@
+    body {
+        background-color: #FFFDD0;
+        font-family: Red Hat;
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: Red hat;
+        src: url('/Assets/RedHat/RedHatDisplay-VariableFont_wght.ttf');
+    }
+
+
+    .sidebar {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        background-color: #fbf8c2;
+        height: 100%;
+        width: 20vw;
+        box-shadow: 5px 5px 15px  rgba(0, 0, 0, 0.5);
+        
+    }
+
+    .sidebar img {
+        width: 5vw;
+        height: 5vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .sidebar h1 {
+        font-weight: 750;
+        
+    }
+
+    .sidebar ol li {
+        line-height: 4vw;
+        list-style: none;
+       
+    }
+
+    .sidebar ol img {
+        height: 3vw;
+        width: 3vw;
+        vertical-align: middle;
+
+    }
+
+    .sidebar ol {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    .sidebar ol button {
+        background-color: transparent;
+        border: 1px solid ;
+        border-radius: 3px;
+
+    }
+
+
+
+
+    .sidebar ol button:hover {
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+
+
+   
+   
+    
+
+    .sidebar_title {
+        display: flex;
+        width: 100%;
+        padding-top: 1vw;
+
+        height: 6vw;
+
+        box-shadow: -4px 5px 15px rgba(0, 0, 0, 0.5)
+        
+    }
+
+    .darkmode {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+       
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1vw;
+    }
+
+    .buttons button {
+        background-color: black;
+        border: 0;
+        border-radius: 5vw;
+        margin-bottom: 1vw;
+        margin-right: 1vw;
+        width: 9vw;
+        height: 4vw;
+        margin-bottom: 0.5vw;
+
+    }
+
+    .buttons img {
+        background-color: white;
+        border-radius: 5vw;
+        padding: 0.5vw;
+        float: left;
+        width: 2vw;
+    }
+
+  
+
+   
+
+   
